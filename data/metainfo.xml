@@ -3,7 +3,7 @@
   <id>io.github.mihnea_radulescu.imagefanreloaded</id>
   
   <name>ImageFan Reloaded</name>
-  <summary>Light-weight image viewer, supporting multi-core processing</summary>
+  <summary>Light-weight tab-based image viewer, supporting multi-core processing</summary>
 
   <developer_name>Mihnea Rădulescu</developer_name>
   <content_rating type="oars-1.0" />
@@ -12,12 +12,12 @@
   <project_license>GPL-3.0-or-later</project_license>
   
   <description>
-    <p>ImageFan Reloaded is a light-weight image viewer, supporting multi-core processing.</p>
+    <p>ImageFan Reloaded is a light-weight tab-based image viewer, supporting multi-core processing.</p>
 	<p>ImageFan Reloaded features mouse-only interaction, using the left and the right mouse buttons, and the mouse wheel:</p>
 	<ul>
-	  <li>the left mouse button for selecting, opening, zooming in, zooming out, and dragging images</li>
-	  <li>the right mouse button for returning to the main view</li>
-	  <li>the mouse wheel for moving back and forward through thumbnails and opened images</li>
+	  <li>the left mouse button for selecting tabs, folders and images, and for opening, zooming in and out, and dragging images</li>
+	  <li>the right mouse button for returning from the opened image to the main view</li>
+	  <li>the mouse wheel for scrolling through folders and thumbnails, and for navigating back and forward through opened images</li>
 	</ul>
   </description>
   
@@ -35,6 +35,11 @@
   <url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
 
   <releases>
+	<release version="1.2023.10.01" date="2023-10-01">
+	  <description>
+	    <p>Added tab support and made minor improvements</p>
+	  </description>
+    </release>
 	<release version="1.2023.09.07" date="2023-09-08">
 	  <description>
 	    <p>Fixed minor scrolling bug when viewing zoomed images</p>
