@@ -11,8 +11,7 @@
         "--device=dri",
 		"--filesystem=home:ro",
 		"--filesystem=/media:ro",
-		"--filesystem=/mnt:ro",
-		"--filesystem=/run:ro"
+		"--filesystem=/mnt:ro"
     ],
     "modules": [
         {
