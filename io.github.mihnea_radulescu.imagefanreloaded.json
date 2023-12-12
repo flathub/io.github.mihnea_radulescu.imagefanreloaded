@@ -23,16 +23,16 @@
 					"only-arches": [
 						"aarch64"
 					],
-					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2023.12.01/ImageFanReloaded-Avalonia-Linux-arm64-Flathub.zip",
-                    "sha256": "4f8892ff7fc2b54b6a12619f3ef431f422d4e7b5985b8023b523b36a9f9071d5"
+					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2023.12.12/ImageFanReloaded-Avalonia-Linux-arm64-Flathub.zip",
+                    "sha256": "2dfb05aa781540c3ed26f5c7eba2706a44d779c17924ec0990a1ad1c0aaacbdb"
 				},
 				{
 					"type": "file",
 					"only-arches": [
 						"x86_64"
 					],
-					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2023.12.01/ImageFanReloaded-Avalonia-Linux-x64-Flathub.zip",
-                    "sha256": "d0dc2cd9380900fcbb70b7965422a6c1a33741367d53de01a5fa444ece90a83a"
+					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2023.12.12/ImageFanReloaded-Avalonia-Linux-x64-Flathub.zip",
+                    "sha256": "3948a7c95441406a85d43ae2088bbf8e61874b445ae8ea431b16c12beea60ffe"
 				}
             ],
             "build-commands": [
