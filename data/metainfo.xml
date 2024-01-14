@@ -35,6 +35,11 @@
   <url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
 
   <releases>
+	<release version="1.2024.01.15" date="2024-01-15">
+	  <description>
+	    <p>Improved application memory management</p>
+	  </description>
+    </release>
 	<release version="1.2023.12.12" date="2023-12-12">
 	  <description>
 	    <p>Updated tab-based navigation and application libraries</p>
