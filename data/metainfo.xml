@@ -35,6 +35,11 @@
   <url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
 
   <releases>
+	<release version="1.2024.01.17" date="2024-01-17">
+	  <description>
+	    <p>Updated application libraries</p>
+	  </description>
+    </release>
 	<release version="1.2024.01.16" date="2024-01-16">
 	  <description>
 	    <p>Further optimized application memory usage</p>
