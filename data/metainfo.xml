@@ -1,89 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <component type="desktop-application">
-  <id>io.github.mihnea_radulescu.imagefanreloaded</id>
-  
-  <name>ImageFan Reloaded</name>
-  <summary>Light-weight tab-based image viewer, supporting multi-core processing</summary>
 
-  <developer_name>Mihnea Rădulescu</developer_name>
-  <content_rating type="oars-1.0" />
+	<id>io.github.mihnea_radulescu.imagefanreloaded</id>
 
-  <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0-or-later</project_license>
-  
-  <description>
-    <p>ImageFan Reloaded is a light-weight tab-based image viewer, supporting multi-core processing.</p>
-	<p>ImageFan Reloaded features mouse-only interaction, using the left and the right mouse buttons, and the mouse wheel:</p>
-	<ul>
-	  <li>the left mouse button for selecting tabs, folders and images, and for opening, zooming in and out, and dragging images</li>
-	  <li>the right mouse button for returning from the opened image to the main view</li>
-	  <li>the mouse wheel for scrolling through folders and thumbnails, and for navigating back and forward through opened images</li>
-	</ul>
-  </description>
-  
-  <launchable type="desktop-id">io.github.mihnea_radulescu.imagefanreloaded.desktop</launchable>
-  <screenshots>
-    <screenshot type="default">
-      <image>https://raw.githubusercontent.com/mihnea-radulescu/imagefanreloaded/master/Screenshot-Avalonia-Linux-Light.jpg</image>
-    </screenshot>
-    <screenshot>
-      <image>https://raw.githubusercontent.com/mihnea-radulescu/imagefanreloaded/master/Screenshot-Avalonia-Linux-Dark.jpg</image>
-    </screenshot>
-  </screenshots>
+	<name>ImageFan Reloaded</name>
+	<summary>Light-weight tab-based image viewer, supporting multi-core processing</summary>
 
-  <url type="homepage">https://github.com/mihnea-radulescu/imagefanreloaded</url>
-  <url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
+	<developer_name>Mihnea Rădulescu</developer_name>
+	<content_rating type="oars-1.0" />
 
-  <releases>
-	<release version="1.2024.01.17" date="2024-01-17">
-	  <description>
-	    <p>Updated application libraries</p>
-	  </description>
-    </release>
-	<release version="1.2024.01.16" date="2024-01-16">
-	  <description>
-	    <p>Further optimized application memory usage</p>
-	  </description>
-    </release>
-	<release version="1.2024.01.15" date="2024-01-15">
-	  <description>
-	    <p>Improved application memory management</p>
-	  </description>
-    </release>
-	<release version="1.2023.12.12" date="2023-12-12">
-	  <description>
-	    <p>Updated tab-based navigation and application libraries</p>
-	  </description>
-    </release>
-	<release version="1.2023.12.01" date="2023-12-01">
-	  <description>
-	    <p>Updated runtime, main framework and libraries</p>
-	  </description>
-    </release>
-	<release version="1.2023.10.09" date="2023-10-09">
-	  <description>
-	    <p>Updated application libraries</p>
-	  </description>
-    </release>
-	<release version="1.2023.10.08" date="2023-10-08">
-	  <description>
-	    <p>Fixed an image display and scrolling issue</p>
-	  </description>
-    </release>
-	<release version="1.2023.10.01" date="2023-10-01">
-	  <description>
-	    <p>Added tab support and made minor improvements</p>
-	  </description>
-    </release>
-	<release version="1.2023.09.07" date="2023-09-08">
-	  <description>
-	    <p>Fixed minor scrolling bug when viewing zoomed images</p>
-	  </description>
-    </release>
-    <release version="1.2023.08.28" date="2023-08-29">
-	  <description>
-	    <p>Initial Flatpak release</p>
-	  </description>
-    </release>
-  </releases>
+	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>GPL-3.0-or-later</project_license>
+
+	<description>
+		<p>ImageFan Reloaded is a light-weight tab-based image viewer, supporting multi-core processing.</p>
+		<p>ImageFan Reloaded features mouse and key-based interaction using:</p>
+		<ul>
+			<li>the left mouse button for selecting tabs, folders and images, and for opening, zooming in and out, and dragging images</li>
+			<li>the right mouse button for returning from the opened image to the main view</li>
+			<li>the mouse wheel for scrolling through folders and thumbnails, and for navigating back and forward through opened images</li>
+			<li>the key Tab for cycling though active tabs</li>
+			<li>the keys W-A-S-D, Up-Down-Left-Right, Backspace-Space and PageUp-PageDown for back and forward navigation through thumbnails and opened images</li>
+			<li>the keys Enter-Escape for entering into and exiting from image display modes</li>
+		</ul>
+	</description>
+
+	<launchable type="desktop-id">io.github.mihnea_radulescu.imagefanreloaded.desktop</launchable>
+	
+	<screenshots>
+		<screenshot type="default">
+			<image>https://raw.githubusercontent.com/mihnea-radulescu/imagefanreloaded/main/Screenshot-Dark.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image>https://raw.githubusercontent.com/mihnea-radulescu/imagefanreloaded/main/Screenshot-Light.jpg</image>
+		</screenshot>
+	</screenshots>
+
+	<url type="homepage">https://github.com/mihnea-radulescu/imagefanreloaded</url>
+	<url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
+
+	<releases>
+		<release version="1.2024.01.21" date="2024-01-21">
+			<description>
+				<p>Added keyboard keys support</p>
+			</description>
+		</release>
+		<release version="1.2024.01.17" date="2024-01-17">
+			<description>
+				<p>Updated application libraries</p>
+			</description>
+		</release>
+		<release version="1.2024.01.16" date="2024-01-16">
+			<description>
+				<p>Further optimized application memory usage</p>
+			</description>
+		</release>
+		<release version="1.2024.01.15" date="2024-01-15">
+			<description>
+				<p>Improved application memory management</p>
+			</description>
+		</release>
+		<release version="1.2023.12.12" date="2023-12-12">
+			<description>
+				<p>Updated tab-based navigation and application libraries</p>
+			</description>
+		</release>
+		<release version="1.2023.12.01" date="2023-12-01">
+			<description>
+				<p>Updated runtime, main framework and libraries</p>
+			</description>
+		</release>
+		<release version="1.2023.10.09" date="2023-10-09">
+			<description>
+				<p>Updated application libraries</p>
+			</description>
+		</release>
+		<release version="1.2023.10.08" date="2023-10-08">
+			<description>
+				<p>Fixed an image display and scrolling issue</p>
+			</description>
+		</release>
+		<release version="1.2023.10.01" date="2023-10-01">
+			<description>
+				<p>Added tab support and made minor improvements</p>
+			</description>
+		</release>
+		<release version="1.2023.09.07" date="2023-09-08">
+			<description>
+				<p>Fixed minor scrolling bug when viewing zoomed images</p>
+			</description>
+		</release>
+		<release version="1.2023.08.28" date="2023-08-29">
+			<description>
+				<p>Initial Flatpak release</p>
+			</description>
+		</release>
+	</releases>
+
 </component>
