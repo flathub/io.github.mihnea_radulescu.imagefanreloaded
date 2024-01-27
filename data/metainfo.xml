@@ -41,6 +41,11 @@
 	<url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
 
 	<releases>
+		<release version="1.2024.01.28" date="2024-01-28">
+			<description>
+				<p>Improved application startup time</p>
+			</description>
+		</release>
 		<release version="1.2024.01.22" date="2024-01-22">
 			<description>
 				<p>Added keyboard keys support</p>
