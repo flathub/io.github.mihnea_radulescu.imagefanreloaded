@@ -41,6 +41,11 @@
 	<url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
 
 	<releases>
+		<release version="1.2024.02.12" date="2024-02-12">
+			<description>
+				<p>Updated application libraries</p>
+			</description>
+		</release>
 		<release version="1.2024.02.04" date="2024-02-04">
 			<description>
 				<p>Added natural sort order for folders and files</p>

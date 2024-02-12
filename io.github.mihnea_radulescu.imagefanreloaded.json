@@ -1,55 +1,55 @@
 {
-    "app-id": "io.github.mihnea_radulescu.imagefanreloaded",
-    "runtime": "org.freedesktop.Platform",
-    "runtime-version": "23.08",
-    "sdk": "org.freedesktop.Sdk",
-    "command": "ImageFanReloaded",
-    "finish-args": [
+  "app-id": "io.github.mihnea_radulescu.imagefanreloaded",
+  "runtime": "org.freedesktop.Platform",
+  "runtime-version": "23.08",
+  "sdk": "org.freedesktop.Sdk",
+  "command": "ImageFanReloaded",
+  "finish-args": [
 		"--socket=wayland",
 		"--socket=fallback-x11",
-        "--share=ipc",
-        "--device=dri",
+    "--share=ipc",
+    "--device=dri",
 		"--filesystem=home:ro",
 		"--filesystem=/media:ro",
 		"--filesystem=/mnt:ro"
-    ],
-    "modules": [
-        {
-            "name": "ImageFanReloaded",
-            "buildsystem": "simple",
-            "sources": [
+  ],
+  "modules": [
+    {
+      "name": "ImageFanReloaded",
+      "buildsystem": "simple",
+      "sources": [
 				{
 					"type": "file",
 					"only-arches": [
 						"aarch64"
 					],
-					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2024.02.04/ImageFanReloaded_Linux_arm64_Flathub.zip",
-                    "sha256": "564b3d403eeeac32715c1be9525eb1e4af920ced9d87f71df75c8331d824a9a4"
+					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2024.02.12/ImageFanReloaded_Linux_arm64_Flathub.zip",
+          "sha256": "c73a85e67b59bd268c673a41777a7cf7f6d6ead99be3c9f6a20a64c0b1b32694"
 				},
 				{
 					"type": "file",
 					"only-arches": [
 						"x86_64"
 					],
-					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2024.02.04/ImageFanReloaded_Linux_x64_Flathub.zip",
-                    "sha256": "fd44f9b874f48d60a08e192ea49ddc607ace610064f0bb94b45e36f9bd93e569"
+					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2024.02.12/ImageFanReloaded_Linux_x64_Flathub.zip",
+          "sha256": "9f261a56e1bbcd8095d1f866a1c54289d851d2c72160c245e4d9307e392cc3c1"
 				}
-            ],
-            "build-commands": [
-                "unzip ImageFanReloaded_Linux_*.zip"
-            ],
+      ],
+      "build-commands": [
+        "unzip ImageFanReloaded_Linux_*.zip"
+      ],
 			"post-install": [
-                "install -Dm755 ImageFanReloaded /app/bin/ImageFanReloaded",
+        "install -Dm755 ImageFanReloaded /app/bin/ImageFanReloaded",
 				"install -Dm644 libHarfBuzzSharp.so /app/bin/libHarfBuzzSharp.so",
-                "install -Dm644 libSkiaSharp.so /app/bin/libSkiaSharp.so",
+        "install -Dm644 libSkiaSharp.so /app/bin/libSkiaSharp.so",
 				"install -Dm644 icon64.png /app/share/icons/hicolor/64x64/apps/io.github.mihnea_radulescu.imagefanreloaded.png",
 				"install -Dm644 icon128.png /app/share/icons/hicolor/128x128/apps/io.github.mihnea_radulescu.imagefanreloaded.png",
 				"install -Dm644 app.desktop /app/share/applications/io.github.mihnea_radulescu.imagefanreloaded.desktop",
 				"install -Dm644 metainfo.xml /app/share/metainfo/io.github.mihnea_radulescu.imagefanreloaded.metainfo.xml"
 			],
-            "cleanup": [
-                "ImageFanReloaded_Linux_*.zip"
-            ]
-        }
-    ]
+      "cleanup": [
+        "ImageFanReloaded_Linux_*.zip"
+      ]
+    }
+  ]
 }
