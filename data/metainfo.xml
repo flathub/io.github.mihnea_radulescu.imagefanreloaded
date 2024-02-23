@@ -17,7 +17,7 @@
 		<p>ImageFan Reloaded is a light-weight tab-based image viewer, supporting multi-core processing.</p>
 		<p>ImageFan Reloaded features mouse and key-based interaction using:</p>
 		<ul>
-			<li>the left mouse button for selecting tabs, folders and images, and for opening, zooming in and out, and dragging images</li>
+			<li>left mouse button for interacting with tabs and folders, and for selecting, opening, zooming in and out, and dragging images</li>
 			<li>the right mouse button for returning from the opened image to the main view</li>
 			<li>the mouse wheel for scrolling through folders and thumbnails, and for navigating back and forward through opened images</li>
 			<li>the key Tab for cycling though active tabs</li>
@@ -41,6 +41,11 @@
 	<url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
 
 	<releases>
+		<release version="1.2024.02.23" date="2024-02-23">
+			<description>
+				<p>Improved tab support, and added image status bar</p>
+			</description>
+		</release>
 		<release version="1.2024.02.18" date="2024-02-18">
 			<description>
 				<p>Added information status bar</p>
