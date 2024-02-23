@@ -43,7 +43,7 @@
 	<releases>
 		<release version="1.2024.02.23" date="2024-02-23">
 			<description>
-				<p>Improved tab support, and added image status bar</p>
+				<p>Implemented close tab feature, and added image status bar</p>
 			</description>
 		</release>
 		<release version="1.2024.02.18" date="2024-02-18">
