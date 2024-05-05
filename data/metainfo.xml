@@ -41,6 +41,11 @@
 	<url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
 
 	<releases>
+		<release version="1.2024.05.05" date="2024-05-05">
+			<description>
+				<p>Updated disc drives identification using Flatpak</p>
+			</description>
+		</release>
 		<release version="1.2024.05.04" date="2024-05-05">
 			<description>
 				<p>Improved application performance</p>
