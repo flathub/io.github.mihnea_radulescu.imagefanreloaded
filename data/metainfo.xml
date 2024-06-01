@@ -14,7 +14,6 @@
 	<project_license>GPL-3.0-or-later</project_license>
 
 	<description>
-		<p>ImageFan Reloaded is a light-weight, tab-based image viewer, supporting multi-core processing.</p>
 		<p>ImageFan Reloaded features mouse and key-based interaction using:</p>
 		<ul>
 			<li>left mouse button for interacting with tabs and folders, and for selecting, opening, zooming in and out, and dragging images</li>
@@ -23,6 +22,7 @@
 			<li>key Tab for cycling through active tabs</li>
 			<li>keys W-A-S-D, Up-Down-Left-Right, Backspace-Space and PageUp-PageDown for back and forward navigation through thumbnails and opened images</li>
 			<li>key Enter for entering image view and zoomed image view modes</li>
+			<li>key I for toggling image info in image view and zoomed image view modes</li>
 			<li>keys Esc and T for exiting image view and zoomed image view modes</li>
 			<li>key Esc for quitting application</li>
 			<li>key F1 for displaying About view</li>
@@ -44,6 +44,11 @@
 	<url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
 
 	<releases>
+		<release version="1.2024.06.01" date="2024-06-01">
+			<description>
+				<p>Optimized access to thumbnails, and added image info display toggle</p>
+			</description>
+		</release>
 		<release version="1.2024.05.25" date="2024-05-25">
 			<description>
 				<p>Improved thumbnail and image navigation</p>
