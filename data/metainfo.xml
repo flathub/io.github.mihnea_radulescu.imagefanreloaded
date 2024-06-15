@@ -20,6 +20,7 @@
 			<li>right mouse button for returning from the opened image to the main view</li>
 			<li>mouse wheel for scrolling through folders and thumbnails, and for navigating back and forward through opened images</li>
 			<li>key Tab for cycling through active tabs</li>
+			<li>key R for toggling recursive folder image browsing</li>
 			<li>keys W-A-S-D, Up-Down-Left-Right, Backspace-Space and PageUp-PageDown for back and forward navigation through thumbnails and opened images</li>
 			<li>key Enter for entering image view and zoomed image view modes</li>
 			<li>key I for toggling image info in image view and zoomed image view modes</li>
@@ -33,10 +34,13 @@
 	
 	<screenshots>
 		<screenshot type="default">
-			<image>https://raw.githubusercontent.com/mihnea-radulescu/imagefanreloaded/main/Screenshot-Dark.jpg</image>
+			<image>https://raw.githubusercontent.com/mihnea-radulescu/imagefanreloaded/main/Screenshot-1.jpg</image>
 		</screenshot>
 		<screenshot>
-			<image>https://raw.githubusercontent.com/mihnea-radulescu/imagefanreloaded/main/Screenshot-Light.jpg</image>
+			<image>https://raw.githubusercontent.com/mihnea-radulescu/imagefanreloaded/main/Screenshot-2.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image>https://raw.githubusercontent.com/mihnea-radulescu/imagefanreloaded/main/Screenshot-3.jpg</image>
 		</screenshot>
 	</screenshots>
 
@@ -44,6 +48,11 @@
 	<url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
 
 	<releases>
+		<release version="1.2024.06.15" date="2024-06-15">
+			<description>
+				<p>Added recursive folder image browsing</p>
+			</description>
+		</release>
 		<release version="1.2024.06.01" date="2024-06-01">
 			<description>
 				<p>Optimized access to thumbnails, and added image info display toggle</p>
