@@ -20,7 +20,7 @@
 			<li>right mouse button for returning from the opened image to the main view</li>
 			<li>mouse wheel for scrolling through folders and thumbnails, and for navigating back and forward through opened images</li>
 			<li>key Tab for cycling through active tabs</li>
-			<li>key R for toggling recursive folder image browsing</li>
+			<li>key R for toggling recursive folder access, and key combo Shift-R for toggling persistent recursive folder access</li>
 			<li>keys W-A-S-D, Up-Down-Left-Right, Backspace-Space and PageUp-PageDown for back and forward navigation through thumbnails and opened images</li>
 			<li>key Enter for entering image view and zoomed image view modes</li>
 			<li>key I for toggling image info in image view and zoomed image view modes</li>
@@ -48,6 +48,11 @@
 	<url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
 
 	<releases>
+		<release version="1.2024.07.02" date="2024-07-02">
+			<description>
+				<p>Enabled persistent recursive folder access</p>
+			</description>
+		</release>
 		<release version="1.2024.06.15" date="2024-06-15">
 			<description>
 				<p>Added recursive folder image browsing</p>
