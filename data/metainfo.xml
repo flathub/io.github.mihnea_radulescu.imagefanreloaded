@@ -34,6 +34,13 @@
 		</ul>
 	</description>
 
+	<categories>
+		<category>Graphics</category>
+		<category>2DGraphics</category>
+		<category>RasterGraphics</category>
+		<category>Viewer</category>
+	</categories>
+
 	<launchable type="desktop-id">io.github.mihnea_radulescu.imagefanreloaded.desktop</launchable>
 	
 	<screenshots>
@@ -52,6 +59,11 @@
 	<url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
 
 	<releases>
+		<release version="1.2024.08.14" date="2024-08-14">
+			<description>
+				<p>Updated application libraries</p>
+			</description>
+		</release>
 		<release version="1.2024.08.05" date="2024-08-05">
 			<description>
 				<p>Improved application navigation</p>

@@ -5,50 +5,42 @@
   "sdk": "org.freedesktop.Sdk",
   "command": "ImageFanReloaded",
   "finish-args": [
-		"--socket=x11",
-    "--share=ipc",
-    "--device=dri",
-		"--filesystem=home:ro",
-		"--filesystem=/media:ro",
-		"--filesystem=/mnt:ro"
+	"--socket=x11",
+	"--share=ipc",
+	"--device=dri",
+	"--filesystem=home:ro",
+	"--filesystem=/media:ro",
+	"--filesystem=/mnt:ro"
   ],
   "modules": [
-    {
+	{
       "name": "ImageFanReloaded",
       "buildsystem": "simple",
       "sources": [
-				{
-					"type": "file",
-					"only-arches": [
-						"aarch64"
-					],
-					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2024.08.05/ImageFanReloaded_Linux_arm64_Flathub.zip",
-          "sha256": "f620c5cd194961611b8c8bfa4d4dded18d3f80f2b4ad8a81e632896b8e059454"
-				},
-				{
-					"type": "file",
-					"only-arches": [
-						"x86_64"
-					],
-					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2024.08.05/ImageFanReloaded_Linux_x64_Flathub.zip",
-          "sha256": "42d54a92a6cd5bc346a11c769b54808410ea7b81ead7f1760ac52f33761883a0"
-				}
-      ],
-      "build-commands": [
-        "unzip ImageFanReloaded_Linux_*.zip"
-      ],
-			"post-install": [
+		{
+			"type": "file",
+			"only-arches": ["aarch64"],
+			"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2024.08.14/ImageFanReloaded_Linux_arm64_Flathub.zip",
+			"sha256": "837096e914435c412e2e32b8fc8417a20a953e7571f8c20bed35a2d2a336975b"
+		},
+		{
+			"type": "file",
+			"only-arches": ["x86_64"],
+			"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2024.08.14/ImageFanReloaded_Linux_x64_Flathub.zip",
+			"sha256": "e6016aa5dd8dbdf249d9f258a863296678ec932277dc4a0b71b163a841fd2f30"
+		}
+	],
+	"build-commands": ["unzip ImageFanReloaded_Linux_*.zip"],
+	"post-install": [
         "install -Dm755 ImageFanReloaded /app/bin/ImageFanReloaded",
-				"install -Dm644 libHarfBuzzSharp.so /app/bin/libHarfBuzzSharp.so",
+		"install -Dm644 libHarfBuzzSharp.so /app/bin/libHarfBuzzSharp.so",
         "install -Dm644 libSkiaSharp.so /app/bin/libSkiaSharp.so",
-				"install -Dm644 icon64.png /app/share/icons/hicolor/64x64/apps/io.github.mihnea_radulescu.imagefanreloaded.png",
-				"install -Dm644 icon128.png /app/share/icons/hicolor/128x128/apps/io.github.mihnea_radulescu.imagefanreloaded.png",
-				"install -Dm644 app.desktop /app/share/applications/io.github.mihnea_radulescu.imagefanreloaded.desktop",
-				"install -Dm644 metainfo.xml /app/share/metainfo/io.github.mihnea_radulescu.imagefanreloaded.metainfo.xml"
-			],
-      "cleanup": [
-        "ImageFanReloaded_Linux_*.zip"
-      ]
-    }
+		"install -Dm644 icon64.png /app/share/icons/hicolor/64x64/apps/io.github.mihnea_radulescu.imagefanreloaded.png",
+		"install -Dm644 icon128.png /app/share/icons/hicolor/128x128/apps/io.github.mihnea_radulescu.imagefanreloaded.png",
+		"install -Dm644 app.desktop /app/share/applications/io.github.mihnea_radulescu.imagefanreloaded.desktop",
+		"install -Dm644 metainfo.xml /app/share/metainfo/io.github.mihnea_radulescu.imagefanreloaded.metainfo.xml"
+	],
+    "cleanup": ["ImageFanReloaded_Linux_*.zip"]
+	}
   ]
 }
