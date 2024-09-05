@@ -22,6 +22,7 @@
 			<li>key combos Ctrl+Plus for adding a new tab, and Ctrl+Minus for closing an existing tab</li>
 			<li>key combo Shift+Tab for cycling through tabs</li>
 			<li>key Tab for cycling through controls in the active tab</li>
+			<li>keys + and - for changing thumbnail size by an increment of 50 pixels</li>
 			<li>key R for toggling recursive folder access, and key combo Shift+R for toggling persistent recursive folder access</li>
 			<li>keys Up, Down, Left and Right for back and forward navigation through the folders tree, thumbnails and opened images</li>
 			<li>keys PageUp and PageDown for scrolling through thumbnails</li>
@@ -41,6 +42,12 @@
 		<category>Viewer</category>
 	</categories>
 
+	<keywords>
+		<keyword>viewer</keyword>
+		<keyword>image viewer</keyword>
+		<keyword>image catalog</keyword>
+	</keywords>
+
 	<launchable type="desktop-id">io.github.mihnea_radulescu.imagefanreloaded.desktop</launchable>
 	
 	<screenshots>
@@ -59,6 +66,11 @@
 	<url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
 
 	<releases>
+		<release version="1.2024.09.06" date="2024-09-06">
+			<description>
+				<p>Made thumbnail size configurable</p>
+			</description>
+		</release>
 		<release version="1.2024.08.14" date="2024-08-14">
 			<description>
 				<p>Updated application libraries</p>
