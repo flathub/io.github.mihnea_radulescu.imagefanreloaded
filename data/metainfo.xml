@@ -8,7 +8,7 @@
 	<summary>Light-weight, tab-based image viewer, supporting multi-core processing</summary>
 
 	<developer_name>Mihnea Rădulescu</developer_name>
-	<content_rating type="oars-1.0" />
+	<content_rating type="oars-1.1" />
 
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
@@ -22,6 +22,7 @@
 			<li>key combos Ctrl+Plus for adding a new tab, and Ctrl+Minus for closing an existing tab</li>
 			<li>key combo Shift+Tab for cycling through tabs</li>
 			<li>key Tab for cycling through controls in the active tab</li>
+			<li>keys N, C and M for changing folder ordering between name ascending, creation time descending and last modification time descending</li>
 			<li>keys + and - for changing thumbnail size by an increment of 50 pixels</li>
 			<li>key R for toggling recursive folder access, and key combo Shift+R for toggling persistent recursive folder access</li>
 			<li>keys Up, Down, Left and Right for back and forward navigation through the folders tree, thumbnails and opened images</li>
@@ -66,6 +67,11 @@
 	<url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
 
 	<releases>
+		<release version="1.2024.09.22" date="2024-09-22">
+			<description>
+				<p>Added support for folder ordering</p>
+			</description>
+		</release>
 		<release version="1.2024.09.06" date="2024-09-06">
 			<description>
 				<p>Made thumbnail size configurable</p>
