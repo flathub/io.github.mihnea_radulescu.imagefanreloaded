@@ -14,25 +14,16 @@
 	<project_license>GPL-3.0-or-later</project_license>
 
 	<description>
-		<p>ImageFan Reloaded features mouse and key-based interaction using:</p>
+		<p>Features:</p>
 		<ul>
-			<li>left mouse button for interacting with tabs and folders, and for selecting, opening, zooming in and out, and dragging images</li>
-			<li>right mouse button for returning from the opened image to the main view</li>
-			<li>mouse wheel for scrolling through folders and thumbnails, and for navigating back and forward through opened images</li>
-			<li>key combos Ctrl+Plus for adding a new tab, and Ctrl+Minus for closing an existing tab</li>
-			<li>key combo Shift+Tab for cycling through tabs</li>
-			<li>key Tab for cycling through controls in the active tab</li>
-			<li>keys N, C and M for changing folder ordering between name ascending, creation time descending and last modification time descending</li>
-			<li>keys + and - for changing thumbnail size by an increment of 50 pixels</li>
-			<li>key R for toggling recursive folder access, and key combo Shift+R for toggling persistent recursive folder access</li>
-			<li>keys Up, Down, Left and Right for back and forward navigation through the folders tree, thumbnails and opened images</li>
-			<li>keys PageUp and PageDown for scrolling through thumbnails</li>
-			<li>key Enter for entering image view and zoomed image view modes</li>
-			<li>key combos Ctrl+Up, Ctrl+Down, Ctrl+Left and Ctrl+Right for dragging zoomed images</li>
-			<li>key I for toggling image info in image view and zoomed image view modes</li>
-			<li>keys Esc and T for exiting image view and zoomed image view modes</li>
-			<li>key Esc for quitting application</li>
-			<li>key F1 for displaying About view</li>
+			<li>quick concurrent thumbnail generation, scaling to the number of processor cores present</li>
+			<li>support for multiple folder tabs</li>
+			<li>keyboard and mouse user interaction</li>
+			<li>folder ordering by name and last modification time</li>
+			<li>configurable thumbnail size, between 50 and 400 pixels</li>
+			<li>toggle-able recursive folder browsing</li>
+			<li>targeted zooming in, and moving over the zoomed image</li>
+			<li>fast and seamless full-screen navigation across images</li>
 		</ul>
 	</description>
 
@@ -67,6 +58,11 @@
 	<url type="bugtracker">https://github.com/mihnea-radulescu/imagefanreloaded/issues</url>
 
 	<releases>
+		<release version="1.2024.10.01" date="2024-10-01">
+			<description>
+				<p>Added tab options</p>
+			</description>
+		</release>
 		<release version="1.2024.09.22" date="2024-09-22">
 			<description>
 				<p>Added support for folder ordering</p>
