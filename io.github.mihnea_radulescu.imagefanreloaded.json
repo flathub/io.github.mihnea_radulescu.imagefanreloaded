@@ -21,14 +21,14 @@
 				{
 					"type": "archive",
 					"only-arches": ["aarch64"],
-					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2025.10.17/ImageFanReloaded_Linux_arm64_Flathub.tar.gz",
-					"sha256": "adac340d7c7656aae448bec8512a542c1aa62e3b6d24d8f39c91bf9d66c25ffc"
+					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2025.10.19/ImageFanReloaded_Linux_arm64_Flathub.tar.gz",
+					"sha256": "20811a80073f46f3d431bcb7dec912832a67c9c8ea93b0649160cdbd6345cf5a"
 				},
 				{
 					"type": "archive",
 					"only-arches": ["x86_64"],
-					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2025.10.17/ImageFanReloaded_Linux_x64_Flathub.tar.gz",
-					"sha256": "8c07e3de90a9647cb9b91c2805f48ddfdaf2e3c3dd560083a937dba547c20b87"
+					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2025.10.19/ImageFanReloaded_Linux_x64_Flathub.tar.gz",
+					"sha256": "6929df714c0bad995c1dd4e5400d6a7839102762e2ec8985b016597debc8898a"
 				}
 			],
 			"build-commands": [
