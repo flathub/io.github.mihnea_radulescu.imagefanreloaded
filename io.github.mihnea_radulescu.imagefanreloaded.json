@@ -1,7 +1,7 @@
 {
 	"app-id": "io.github.mihnea_radulescu.imagefanreloaded",
 	"runtime": "org.freedesktop.Platform",
-	"runtime-version": "25.08",
+	"runtime-version": "26.08",
 	"sdk": "org.freedesktop.Sdk",
 	"command": "ImageFanReloaded",
 	"finish-args": [
@@ -22,14 +22,14 @@
 				{
 					"type": "archive",
 					"only-arches": ["aarch64"],
-					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2026.08.30/ImageFanReloaded_Linux_arm64_Flathub.tar.gz",
-					"sha256": "49f19e72f78617bbf85f416fe60892847dfdfc5843378d79193ed0d5a4ea1c03"
+					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2026.09.25/ImageFanReloaded_Linux_arm64_Flathub.tar.gz",
+					"sha256": "d8df3e2104ea426dc50f65146c9baa799983ab8a043264fc522db194301fa17f"
 				},
 				{
 					"type": "archive",
 					"only-arches": ["x86_64"],
-					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2026.08.30/ImageFanReloaded_Linux_x64_Flathub.tar.gz",
-					"sha256": "0c381bfa984702b198a6b096d0416a35c0bb5506d6fa8bb79a9db5947eec3e32"
+					"url": "https://github.com/mihnea-radulescu/imagefanreloaded/releases/download/1.2026.09.25/ImageFanReloaded_Linux_x64_Flathub.tar.gz",
+					"sha256": "edc24d37b8b1e90e0aba61fbb9d123109cc2a4eca80786ce56e72f630e16d6ac"
 				}
 			],
 			"build-commands": [
